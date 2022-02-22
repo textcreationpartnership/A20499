@@ -1,0 +1,653 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A discourse of the married and single life Wherein, by discovering the misery of the one, is plainely declared the felicity of the other.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1621</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 72 KB of XML-encoded text transcribed from 65 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A20499</idno>
+            <idno type="STC">STC 6908</idno>
+            <idno type="STC">ESTC S116956</idno>
+            <idno type="EEBO-CITATION">99852171</idno>
+            <idno type="PROQUEST">99852171</idno>
+            <idno type="VID">17480</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A20499)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 17480)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 1446:11)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A discourse of the married and single life Wherein, by discovering the misery of the one, is plainely declared the felicity of the other.</title>
+                  <author>Jardin, Roland du.</author>
+               </titleStmt>
+               <extent>[14], 115, [1] p.   </extent>
+               <publicationStmt>
+                  <publisher>Imprinted [by F. Kingston] for Ionas Man,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1621.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Translated or adapted, at least in part, from R. Du Jardin's "Lettre du philosophe Lyndorach au roy Culteber"--STC.</note>
+                  <note>Printer's name from STC.</note>
+                  <note>Reproduction of the original in the Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Marriage --  Early works to 1800.</term>
+               <term>Celibacy --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:17480:1"/>
+            <pb facs="tcp:17480:1" rendition="simple:additions"/>
+            <p>A DISCOVERSE OF THE MARRIED AND SINGLE LIFE.</p>
+            <p>
+               <hi>WHEREIN,</hi> BY DISCOVERING THE MISERY OF THE one, is plainely declared <hi>the felicity of the</hi> other.</p>
+            <p>
+               <hi>Bona pudicitia coniugalis, ſed melior continentia virginalis.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Imprinted for <hi>Ionas Man.</hi>
+            </p>
+            <p>1621.</p>
+         </div>
+         <div type="preface">
+            <pb facs="tcp:17480:2"/>
+            <pb facs="tcp:17480:2"/>
+            <head>The Preface to the Maſ<g ref="char:EOLhyphen"/>culine Reader.</head>
+            <p>
+               <seg rend="decorInit">N</seg>Euer was there any thing ſo perfectly good, that by traducing tongues hath not been made to ſeeme euill, nei<g ref="char:EOLhyphen"/>ther hath there any thing been ſo abſolutely euill, that either by co<g ref="char:EOLhyphen"/>lourable ſpeeches, or faire pretences may not be made to ſeeme good.</p>
+            <p>Some men apply themſelues to reading onely, to procure matter of contradiction, that what others de<g ref="char:EOLhyphen"/>fend, they would diſproue, and what by others is diſallowed, ſhall by them be highly commended. But ſuch as are wiſe, haue learned to ſu<g ref="char:EOLhyphen"/>ſpend their iudgements in, concer<g ref="char:EOLhyphen"/>ning that which either pleaſeth or diſpleaſeth them, vntill they haue laid ſuch infallible grounds, as may
+<pb facs="tcp:17480:3"/>iuſtly cleere them from al ſuſpition, either of folly for approuing that which in it ſelfe is knowne to be ill, or of maliciouſneſſe, for diſprouing that, the goodneſſe whereof. (it is likely) they neuer vnderstood. The Authors intent in this enſuing diſ<g ref="char:EOLhyphen"/>courſe, is not to breede in mens minds a diſlike of that which in it ſelfe is good, both in reſpect of him that ordained it, as alſo the ends wherefore it was ordained, which are moſt good. But ſince his diſ<g ref="char:EOLhyphen"/>courſe is of Marriage, he is to be conceiued either as a detector of the miſeries thereof, proceeding rather from the perſons, then the thing it ſelfe, or as a director to the com<g ref="char:EOLhyphen"/>forts thereof; which chiefly conſist in ſuch qualities and diſpoſitions, as are directly contrary to ſuch as here be mentioned. As therefore we haue iust occaſion to loue them that ſhew vs a good way, and direct
+<pb facs="tcp:17480:3"/>vs in it: ſo are we not to deſpiſe them that by detecting vnto vs the euill way, teach vs to auoide it.</p>
+            <p>The differences that are betwixt the married and the ſingle life, as there was neuer any man ſo wiſe as to know them all, ſo neuer as yet hath any man diſcouered them all, which makes it a poynt of great dif<g ref="char:EOLhyphen"/>ficulty for a man to know which is the better, vntill hee haue tasted both; and then ſhall he only learne, that the inferiors of the one doe on<g ref="char:EOLhyphen"/>ly exceede the inconueniences of the other.</p>
+            <p>If we ſhould take this Authors o<g ref="char:EOLhyphen"/>pinion, who will perhaps be iudged partiall, hauing neuer tried both, he doth certainly prefer the ſingle before the double, and in ſo doing, will alſo giue vs ſome reaſon why he may be beleeued, becauſe the actions of many of the beſt men haue wit<g ref="char:EOLhyphen"/>neſſed the truth of that which he
+<pb facs="tcp:17480:4"/>maintaineth; and ſo much the ra<g ref="char:EOLhyphen"/>ther alſo, becauſe there are many reaſons why that ſhould be prefer<g ref="char:EOLhyphen"/>red before this, &amp; but one only, why this ſhould be preferred before that.</p>
+            <p>The temptations of the ſingle life, are ſubiect to perſwade a man to marry; the incumbrances of the married life, to diſſwade a man therefrom. Let vs conſider of that happineſſe wherein man liued be<g ref="char:EOLhyphen"/>fore be inioyed the company of a woman, and ſo behold that miſerie wherein he is inwrapped ſince the time he partaked therein; and it will be an argument ſufficient to induce a man to approoue that, which in it ſelfe was good, rather than of that which in it ſelfe was the onely cauſe of the deprauation of that onely good. Let but a man conſider the many qualities, where<g ref="char:EOLhyphen"/>with he that will be married must bee burthened, and thoſe few
+<pb facs="tcp:17480:4"/>that will ſerue for the ſingle life, and he ſhall be rather induced to chuſe that whereunto nature of her ſelfe hath fitted him, one only being wan<g ref="char:EOLhyphen"/>ting, than deſire that whereunto there is ſo much requiſite, as it is not almost poſsible for a man to attaine in the whole courſe of his life. He that would liue without a wife, needs ſtriue for no other qualitie, but Chastitie, all other will offer themſelues; he need only entertaine her. But he that will be married, must meaſure both his words and his actions according to the diſpoſi<g ref="char:EOLhyphen"/>tion of his wife; he must both be di<g ref="char:EOLhyphen"/>ligent in looking to her, that her ſteps goe not awry, and he must be alſo carefull to looke to himſelfe, leſt he incurre the ſuſpition of Ielouſie.</p>
+            <p>The ſubiections, that hee must yeeld both to her and her kindred, if he be any thing imperious (and ſo he will if he be not a naturall) are most
+<pb facs="tcp:17480:5"/>intolerable: the cenſures that hee must vndergoe, and the hard taxa<g ref="char:EOLhyphen"/>tions that will be impoſed vpon him, euen for his priuatest ſpeeches, will, if he come to know them, make him wiſh he had neuer felt them.</p>
+            <p>Let a man alſo conſider the qua<g ref="char:EOLhyphen"/>lities, wherewith women are indued, which for the most part are oppoſite to thoſe of men: as, her wantonneſſe, to his ſobrietie; her frowardneſſe, to his meekeneſſe; her ſtubbornneſſe, to his patience; her pride, to his humi<g ref="char:EOLhyphen"/>litie; her lightneſſe, to his grauitie; her diſliking, to that which he ap<g ref="char:EOLhyphen"/>proueth; her coueting of which he denieth: wherein they iustly re<g ref="char:EOLhyphen"/>ſemble the ſhadow of a mans body, which if a man purſue, it will runne from him; if he goe away, it will follow him: this is all the comfort that a man in his choyce can haue, that perhaps it may be his fortune, <hi>inter malos, non habere peſſima:</hi>
+               <pb facs="tcp:17480:5"/>amongst many that are euill, not to light of that which is worst of all: but as this Prouerbe is, that amongst blinde men, hee is counted happie that hath but one eye; ſo in a world of miſeries and inconueniences, he is not the worst, whoſe fortune it is, either to light of the fairest, or to beare the eaſieſt. Many haue thought it impoſsible to know which is the worst qualitie of a woman; ſome haue made it a great question, whe<g ref="char:EOLhyphen"/>ther it were better for a man to mar<g ref="char:EOLhyphen"/>rie a ſhrew, or a ſheepe, but hardly can it be reſolued. If the former, then is ſhee Tyrannicall; and the greatest cruelty, is the crueltie of a woman; if the latter, then can ſhe not be endured: for there is no bur<g ref="char:EOLhyphen"/>then more grieuous than the folly of a woman. Let a man but weight the infidelity of women, and that in matters of greatest importance, and then let him iudge what ſecure truſt
+<pb facs="tcp:17480:6"/>can be repoſed in them, by whom he ſhall vnder stand, not onely Townes and Citties, but alſo Kingdomes and Dominions haue been vtterly rui<g ref="char:EOLhyphen"/>nated, either by their treacherous practices, or for the ſatisfying of their ambitious humours; ſo that when there ſhall be nothing to re<g ref="char:EOLhyphen"/>ſtraine them, but the feare of the Husbands diſpleaſure, which, when occaſion is offered, is as likely to change the miſchiefes of their in<g ref="char:EOLhyphen"/>tent, as the breath of a man to refell the fury of the winde; or the ſha<g ref="char:EOLhyphen"/>king of a ſtraw to daunt the heart of a Lyon; I cannot ſee by what means he can auoide or eſcape deſtruction, that violently casteth himſelfe vpon the edge of her ouer-ſharpe patience.</p>
+            <p>Let a man but further conſider the great diſſiculty that conſisteth in the bringing vp of Children, if he haue them; the infinite diſcomfort, if he haue them not. For their bringing
+<pb facs="tcp:17480:6"/>vp, we ſee by daily experience, that in their tender yeeres, they are either by too much lenity made to become diſ<g ref="char:EOLhyphen"/>ſolute, and effeminately prone to all manner of vice, ſeeing that indul<g ref="char:EOLhyphen"/>gence is the onely bellowes to Kindle the ſparke of a corrupt nature; or elſe by ouer-much ſeuerity they are made vnapt and vncapeable of any thing that is good; and ſo the expectation of the chiefeſt happineſſe, is turned into the fruition of the greateſt euill: and he that will diligently obſerue, ſhall finde, that children haue by the bad<g ref="char:EOLhyphen"/>neſſe of their mothers diſpoſition, bin made the only inſtrument of their fa<g ref="char:EOLhyphen"/>thers diſcontentment: yea, and ſome<g ref="char:EOLhyphen"/>time the author of their destruction.</p>
+            <p>The husband is, by the very inſti<g ref="char:EOLhyphen"/>tution of marridge, ordained to be the head; and the head was made to rule and gouerne the body. Now, the difficulty that is incident to this regi<g ref="char:EOLhyphen"/>ment, is ſuch, and ſo great, that few
+<pb facs="tcp:17480:7"/>men take pleaſure in poſſeſsing it, none at all performe it in that man<g ref="char:EOLhyphen"/>ner they ſhould; the greateſt wiſdome that herein is required, conſiſteth in the counſelling and diſcouery, as oc<g ref="char:EOLhyphen"/>caſion ſerueth, of his paſsions, and in the right applying of his affections, according to the condition of his wiues humor. If he loue her too much, then will ſhe condemne him: for plen<g ref="char:EOLhyphen"/>ty alwaies breeds lothſomnes. If he do not manifeſt his loue in that ſort that ſhe deſireth or expecteth, then ſhe pre<g ref="char:EOLhyphen"/>ſently imagineth, that he beſtoweth it ſome-where elſe; and ſo being poſ<g ref="char:EOLhyphen"/>ſeſt of that Ielouſie, there is no miſery that will not follow of it. If he let her haue her will, ſouerainety is ſtraight turned into Tyranny: If he abridge her, ſhe then falls into a thouſand in<g ref="char:EOLhyphen"/>conueniences. If he be ready to obey her commandements, then will ſhe be moſt importunate. If he deny her re<g ref="char:EOLhyphen"/>queſt, though it be neuer ſo vnreaſo<g ref="char:EOLhyphen"/>nable,
+<pb facs="tcp:17480:7"/>then is he preſently iudged vnkinde and hard-hearted.</p>
+            <p>Many men ouer-venturous, will put their hands into the Hiues for hony; but at the laſt they are ſtung with Waſpes; and no maruaile is it, where there are more Waſps tha<g ref="char:cmbAbbrStroke">̄</g> Bees. Yet the ſtings of a thouſand Waſpes do not ſo wound, as the tongue of one woman: for of the one there be many remedies; the other remaineth al<g ref="char:EOLhyphen"/>waies incurable: for diſeaſes that be mortall, men ſhould be carefull to pre<g ref="char:EOLhyphen"/>uent, becauſe there remaineth no hope to cure them: and ſuch are they that are herein mentioned, namely, the diſeaſes of marriage, the which when men ſtudy to cure, the remedy doth oft-times proue worſe, and pro<g ref="char:EOLhyphen"/>cure them more danger, then the euil it ſelfe was likely to haue done; which as it is not vnknown to any that haue obſerued the vſuall proceedings of the world, ſo haue they felt the ſmart
+<pb facs="tcp:17480:8"/>thereof, whoſe fortune it hath been to partake therein. He therefore that would know the difference betwixt the married, and the ſingle life, ſhall neither finde the one to be abſolute good, nor the other to be altogether euill: but herein he ſhall ſee the diffe<g ref="char:EOLhyphen"/>rence chiefely to conſist, that the in<g ref="char:EOLhyphen"/>conueniences of the one may be re<g ref="char:EOLhyphen"/>medied when a man wil, the miſeries of the other remaine vncurable; which as they are many, ſo it is not poſsible to recken them vp: ſome of them in this diſcourſe are touched, the moſt remaine diſcouered, he that plungeth not into all, ſhall be ſure to leape into ſome; the benefit he ſhall get by reading of this, is, that though per<g ref="char:EOLhyphen"/>haps hee cannot bee forewarned by wiſdome to preuent them, yet he may be forewarned with patience to en<g ref="char:EOLhyphen"/>dure them; which is the onely drift which herein is aymed at.</p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb n="1" facs="tcp:17480:8"/>
+            <head>A DISCOVERSE OF THE MAR<g ref="char:EOLhyphen"/>RIED AND SIN<g ref="char:EOLhyphen"/>GLE LIFE.</head>
+            <div n="1" type="chapter">
+               <head>CHAP. I.</head>
+               <head type="sub">A Letter of <hi>Lindorach</hi> the Phi<g ref="char:EOLhyphen"/>loſopher, to <hi>Cultibert</hi> King of the Indians, concerning the in<g ref="char:EOLhyphen"/>conuenience and diſcommodities of the married Life.</head>
+               <p>
+                  <seg rend="decorInit">I</seg> Vnderſtand that of the cooking, which I thought I neuer ſhould haue vnderſtood, for which cauſe I am inforced to
+<pb n="2" facs="tcp:17480:9"/>write that vnto thee, which I neuer thought to haue written.</p>
+               <p>I heare, thou art about to purchaſe vnto thy ſelfe a wife, and the price that thou muſt giue, is thy liber<g ref="char:EOLhyphen"/>ty; that of a King, thou wilt make thy ſelfe a Vaſſall; of a Lord, a ſeruant; and of a man of wit and vnderſtan<g ref="char:EOLhyphen"/>ding, wilt ſhew thy ſelfe to bee voyd of both.</p>
+               <p>I vnderſtand, thou bea<g ref="char:EOLhyphen"/>reſt on thy head the crown of India: but looke vnto thy ſelfe, thou doſt not beare another of patience, or to ſpeake more proper<g ref="char:EOLhyphen"/>ly,
+<pb n="3" facs="tcp:17480:9"/>of folly, and perhaps one worſe then both, that thou doſt cauſe other men to frame and publiſh: the pro<g ref="char:EOLhyphen"/>ceeding againſt malefa<g ref="char:EOLhyphen"/>ctors, will now bring to thy houſe for thy daily ex<g ref="char:EOLhyphen"/>pence, a Notary and Exa<g ref="char:EOLhyphen"/>miner, a dayly informer and publiſher of the whole proceedings of thy life.</p>
+               <p>And to be briefe, that thou wilt bring a Queene ouer the Indians; a miſ<g ref="char:EOLhyphen"/>chiefe ouer thy mother, a Lady ouer thy ſeruants, a Tyrant ouer thy riches, and a madneſſe ouer thine owne head.</p>
+               <pb n="4" facs="tcp:17480:10"/>
+               <p>The Indians reioyce at it, hoping, that thou with thy Miſtris, ſhalt make a cruell ſtation of them.</p>
+               <p>The wife which thou ſhalt take with her imperi<g ref="char:EOLhyphen"/>ouſneſſe, ſhall make a moſt cruell example of thee.</p>
+               <p>The people of Antia are ſorrow full, fearing that whereas they are now go<g ref="char:EOLhyphen"/>uerned of one that hath reaſon, they ſhall be then ruled by a man that is go<g ref="char:EOLhyphen"/>uerned of a woman with<g ref="char:EOLhyphen"/>out reaſon; thy mother la<g ref="char:EOLhyphen"/>menteth, for that in the day wherein the inſolency of a daughter in law ſhall in<g ref="char:EOLhyphen"/>terre
+<pb n="5" facs="tcp:17480:10"/>the duty of a naturall ſome.</p>
+               <p>Thy ſeruants are grie<g ref="char:EOLhyphen"/>ued, that wheras now their eſtate is miſerable, in being ſeruants vnto a miſtris, they ſhalbe then moſt miſerable, in being ſeruants to a ſer<g ref="char:EOLhyphen"/>uant.</p>
+               <p>Thy riches ſeeme to complaine: for that thy treaſury and thy ſtore, which ought to be imploy<g ref="char:EOLhyphen"/>ed in the honorable re<g ref="char:EOLhyphen"/>ward of ſeruants, and eſpe<g ref="char:EOLhyphen"/>cially of ſouldiers, is tur<g ref="char:EOLhyphen"/>ned into wantonneſſe, into Iewels, into Chaines, into Rings, into Bracelets, into
+<pb n="6" facs="tcp:17480:11"/>Girdles, into Frontlets, and other ſuch like things that tend to the adorning of the Wife, and vndoing of the Husband.</p>
+               <p>Thou onely in ſo great miſery, glad and merry, goeſt laughing to the place of Iuſtice, and ſing<g ref="char:EOLhyphen"/>ing, when thou art at the Tribunall of that ſentence that toucheth thy ſelfe.</p>
+               <p>The ſeruants alwaies goe with a ſlow pace to the Inchantor.</p>
+               <p>The Colt is carried vn<g ref="char:EOLhyphen"/>willingly to the bridle. The Bullock is brought by force to the yoke. The thiefe is
+<pb n="7" facs="tcp:17480:11"/>drawne by violence to the ſtocks, and ſo to the halter.</p>
+               <p>Yet thou runneſt vio<g ref="char:EOLhyphen"/>lently, and ioyfully to thy Inchanter, to thy bridle, to thy yoke, to thy ſtocks, and to thy halter.</p>
+               <p>O man, thou deſerueſt double pitty and compaſ<g ref="char:EOLhyphen"/>ſion. Firſt, becauſe thou art miſerable: ſecondly, be<g ref="char:EOLhyphen"/>cauſe thou art blind, and doſt not ſee thy miſery. Thou and I doe both of vs offend, through folly thou, becauſe by marrying, thou perſwadeſt thy ſelfe to find contentation in thy minde by thy wife: And I, in thin<g ref="char:EOLhyphen"/>king
+<pb n="8" facs="tcp:17480:12"/>by writing vnto thee, to finde fidelity, and pre<g ref="char:EOLhyphen"/>ſent change in thee.</p>
+               <p>As for my folly, it is much leſſe then thine, for that I attempt a thing, how<g ref="char:EOLhyphen"/>ſoeuer not eaſie, yet at the leaſt poſſible; and thou hopeſt for that which both is hard, and alſo impoſſible euer to be done.</p>
+               <p>The letter which I write vnto thee, I know thou wilt reade it laughing: but whenſoeuer thou readeſt it, know that I haue writ it ſorrowing.</p>
+               <p>And know further, that thou wilt not laugh ſo
+<pb n="9" facs="tcp:17480:12"/>much at my letter, as others here after will laugh at thy harme.</p>
+               <p>Now if thou ſhalt deſ<g ref="char:EOLhyphen"/>piſe my counſell, yet grant at the leaſt my requeſt, that though perhaps thou maiſt caſt away my words, yet keepe this my letter by thee, and after a little time that thou haſt beene with thy Spouſe, turne her to reade it; and if in reading of it, ſhe doe not lift her face vp to heauen; if ſhe do not turne vp the white of her eye; if ſhe do not ſtrike her nailes vpon her teeth; if ſhe doe not beate thee vpon
+<pb n="10" facs="tcp:17480:13"/>thy cheekes; if ſhe doe not ruffle and diſorder thy beard; if ſhee doe not ſmite thee vpon thy breſt: Then am I no Philoſopher, then am I no man, then is thy wife no woman.</p>
+               <p>For that beleeue me, if thou wilt belieue the truth, that to marry, and to re<g ref="char:EOLhyphen"/>pent, are as neere alike one to the other, as to day &amp; to morrow; ſo that if thou meaneſt to marry to day, thou ſhalt be ſure to repent to morrow.</p>
+            </div>
+            <div n="2" type="chapter">
+               <pb n="11" facs="tcp:17480:13"/>
+               <head>CHAP. II.</head>
+               <head type="sub">A Letter of <hi>Lindorach,</hi> wherein is declared the conditions of ma<g ref="char:EOLhyphen"/>ny married folkes, chiefly of the manners &amp; conditions of Wiues.</head>
+               <p>HArd and oppoſite, euen as <hi>Scilla</hi> and <hi>Charibais,</hi> are the ſhow of diuers con<g ref="char:EOLhyphen"/>ditions, the which it is ne<g ref="char:EOLhyphen"/>ceſſary that from time to time I doe propound them vnto thee, that thereby thou maieſt ſee, wherevn<g ref="char:EOLhyphen"/>to wiues of neceſſity do of<g ref="char:EOLhyphen"/>ten ſlide, and with them draw their husbands vnto danger.</p>
+               <p>The wife which thou
+<pb n="12" facs="tcp:17480:14"/>haſt to take, but I miſtake my ſelfe, and will returne, the wife of whom thou art to be taken, ſhee muſt for her being, either be faire or foule.</p>
+               <p>If ſhee be faire, ſhee will then be adorned, if foule, ſhe will deſerue to be reie<g ref="char:EOLhyphen"/>cted: if ſhee be faire, ſhee ſhalbe loued of many; if foule, ſhe ſhalbe abhorred of all.</p>
+               <p>For a man to keepe that to himſelf, which is be<g ref="char:EOLhyphen"/>loued of many, is hard to poſſeſſe <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> that which is abhorred of all, is noy<g ref="char:EOLhyphen"/>ſome.</p>
+               <pb n="13" facs="tcp:17480:14"/>
+               <p>If ſhe be faire, many will enuy thee.</p>
+               <p>If foule, all men will pit<g ref="char:EOLhyphen"/>ty thee: and whoſo is enui<g ref="char:EOLhyphen"/>ed or pittied, is alike vn<g ref="char:EOLhyphen"/>fortunate.</p>
+               <p>If ſhe be faire, ſhee wilbe proud: for pride accompa<g ref="char:EOLhyphen"/>nieth beauty, euen as the ſhadow doth the body.</p>
+               <p>If ſhe be foule, then will ſhee bee iealous: for if ſhee haue any wit, ſhe may in her glaſſe eſpy her wa<g ref="char:cmbAbbrStroke">̄</g>t of beau<g ref="char:EOLhyphen"/>ty, and knowing thee not to be blinde, ſhe will ſoone imagine that thou ſeekeſt other company, and by this perſwaſion will perhaps
+<pb n="14" facs="tcp:17480:15"/>procure ſome alſo for her ſelfe.</p>
+               <p>If ſhe be faire, then will ſhe neuer conſent that the law is fulfilled, which ſaith, <hi>Thou ſhalt not couet thy neighbours wife.</hi>
+               </p>
+               <p>If ſhe be foule, ſhe wil not deſire to haue that precept fulfiled which ſaith, <hi>Thou ſhalt leaue father and mother, and follow thy wife.</hi>
+               </p>
+               <p>If ſhe be faire, ſhe can ne<g ref="char:EOLhyphen"/>uer goe abroade, but ſhee ſhal be like the marke in a But, where at the minds and eyes of all men doe ſhoote and ayme; or as an Owle ſet vpon a Pearch, about
+<pb n="15" facs="tcp:17480:15"/>whom all other birds doe flye and wonder.</p>
+               <p>If ſhe be foule, ſhe is like the Snake or Adder that a man no ſooner ſees, but preſently turnes away his eyes from beholding it.</p>
+               <p>If ſhe be faire, and be at meetings and goſſippings, ſhe can neuer be named, but as the praier which is made vnto the Sunne, which be<g ref="char:EOLhyphen"/>ing long, and conuenient that it ſhould be pronoun<g ref="char:EOLhyphen"/>ced with one breath, ſigh<g ref="char:EOLhyphen"/>ed, as it is ſaid.</p>
+               <p>If ſhe be foule, then is ſhe like the drawling diſeaſe, at the very naming whereof,
+<pb n="16" facs="tcp:17480:16"/>cuery man by nature is moued in Spirit.</p>
+               <p>If ſhe be faire, all thy bu<g ref="char:EOLhyphen"/>ſmeſſe abroad is ſure to goe to wracke: for her be<g ref="char:EOLhyphen"/>witching and attracting beauty will inforce thee to ſtay within dores.</p>
+               <p>If ſhe be foule, thy buſi<g ref="char:EOLhyphen"/>nes at home will go worſe: for that by reaſon of her noy ſomneſſe, thou wilt haue but little liſt to bee at home.</p>
+               <p>What then ſhall I ſay more concerning thoſe loue qualities?</p>
+               <p>If ſhe be faire, it will giue cauſe to the world to
+<pb n="17" facs="tcp:17480:16"/>thinke her diſhoneſt; for that beauty and chaſtitie ſeldome dwell vnder one and the ſame roofe.</p>
+               <p>If ſhe be foule, the world ſhall haue occaſion to iudge thee blind, and a re<g ref="char:EOLhyphen"/>ligious obſeruer of the Feaſt of <hi>
+                     <g ref="char:V">Ʋ</g>enus,</hi> the faire will make thee doubt of keeping thine owne, with loſſe of labour and infamy.</p>
+               <p>The foule will cauſe thee to ſeeke other mens, with danger of life, honour and foule.</p>
+               <p>If ſhe be faire, thy houſe ſhall then bee a Stage, the people Spectators, and thy
+<pb n="18" facs="tcp:17480:17"/>wile the Actor of a Co<g ref="char:EOLhyphen"/>medy.</p>
+               <p>If ſhe be foule thy houſe wilbe hell, thy wife the di<g ref="char:EOLhyphen"/>uell, and thy ſelfe the miſe<g ref="char:EOLhyphen"/>rable foule tormented.</p>
+               <p>If thy wife which thou wilt take, be yong, ſhee will alway be importunate for her better attyring.</p>
+               <p>If old, her neuer-leauing to counſell thee, wilbe in<g ref="char:EOLhyphen"/>tolerable.</p>
+               <p>If ſhe be yong, thy heart wilbe alwaies pricked with feare of infamy.</p>
+               <p>If old, thy thoughts will bee alwaies troubled with her inequality of yeeres.</p>
+               <pb n="19" facs="tcp:17480:17"/>
+               <p>If yong, ſhee knowes not how to gouerne thy houſe.</p>
+               <p>If ſhe be old, ſhe will ne<g ref="char:EOLhyphen"/>uer be able, the one wil not haue wit to gouerne, nor the other ſtrength to beare children.</p>
+               <p>If ſhee be poore, then looke to haue with her vn<g ref="char:EOLhyphen"/>happineſſe.</p>
+               <p>If rich, then expect pride.</p>
+               <p>If ſhe be poore, prepare then to conſume thy patri<g ref="char:EOLhyphen"/>mony, perhaps before thy matrimony.</p>
+               <p>If rich, bee ready to bee her ſlaue, not her compa<g ref="char:EOLhyphen"/>nion, and thinke thy ſelfe to bee made of her feete,
+<pb n="20" facs="tcp:17480:18"/>not that ſhee was made of thy rib.</p>
+               <p>But let not any thing that I tell thee of marriage, ſeeme ſtrange; for I write it not ſo much as a matter belonging to thee and thy equals, but rather to men of another degree and con<g ref="char:EOLhyphen"/>dition. And to returne to what I ſaid.</p>
+               <p>If that thy wife bee meane, then ſhall ſhee be deſpiſed.</p>
+               <p>If ſhee be noble, then will ſhe be diſdainefull.</p>
+               <p>If thou takeſt one that wanteth friends, then ſhalt thou not be eſteemed: if
+<pb n="21" facs="tcp:17480:18"/>ſhe hath many friends, it is not poſſible for thee to tame her.</p>
+               <p>If thou takeſt her of a better degree then thy ſelf, her brethren will not bee thy kinsmen, but thy ma<g ref="char:EOLhyphen"/>ſters; her father will not be thy father in law, but thy Lord.</p>
+               <p>If thou takeſt her of a lower degree, then muſt thou be protector ouer her friends, ſo that whereas the one ſort will alwaies bee imperiouſly commanding of thee, the other ſort will neuer leaue needy intrea<g ref="char:EOLhyphen"/>ting of thee.</p>
+               <pb n="22" facs="tcp:17480:19"/>
+               <p>If perhaps honeſt, ſhe will expect, that for hauing that vertue, thou ſhouldeſt beare with her in all other vicos.</p>
+               <p>If diſhoneſt, I omit what to ſay: then come all miſe<g ref="char:EOLhyphen"/>ries. Dores and windows muſt be ſhut, eies and cares muſt be open. Then euery thing is diligently looked into, euery thing is hark<g ref="char:EOLhyphen"/>ned carefully after and ob<g ref="char:EOLhyphen"/>ſerued, all her doings be<g ref="char:EOLhyphen"/>ing feared: then would there be putting chaines to her hands, making lawes for her feete, and reſtraint for her eies: then is there
+<pb n="23" facs="tcp:17480:19"/>ſtrict account kept of her paces, of motions, of her geſtures, of the ſignes ſhe maketh, of her writings, of her ſpeeches, yea euen of the turning of her eies. If thou makeſt the ſuſpition known, how art thou poin<g ref="char:EOLhyphen"/>ted at, as an infamous man? if thou keepeſt it ſecret, thou art condemned as an ignorant perſon. And if ſhe be diſhoneſt &amp; ſhameleſſe, ſhe will publiſh her owne ſhame: If thou ſuffereſt her to liue ſo, by that meanes ſhe becommeth worſe: for ſhe who once loſeth her ho<g ref="char:EOLhyphen"/>nor, there is as much hope
+<pb n="24" facs="tcp:17480:20"/>of amendment, as there is of wooll that once was di<g ref="char:EOLhyphen"/>ed blacke, euer to become white againe.</p>
+               <p>If thy wife be a widdow, ſhee will alwaies be either praiſing or praying for her firſt husband.</p>
+               <p>If a maide, ſhe is then vn<g ref="char:EOLhyphen"/>acquainted with thy con<g ref="char:EOLhyphen"/>ditions, and vnexpert in wiues duty and buſineſſe.</p>
+               <p>If ſimple, then muſt thou bee beholding to thy neighbours to gouerne thy houſe.</p>
+               <p>If witty, then her hus<g ref="char:EOLhyphen"/>band muſt euen commend himſelfe to God, the ſim<g ref="char:EOLhyphen"/>plicitie
+<pb n="25" facs="tcp:17480:20"/>of the one ſuffreth houſhold matters to go vp and downe. The wittines of the other, will almoſt make the husband diſtract of his little wit.</p>
+               <p>If barren, the husband liues then in great diſcon<g ref="char:EOLhyphen"/>tent, eſteeming himſelfe to be in hatred with God and nature, in being denied that comfort, for which chiefly he married: And not gi<g ref="char:EOLhyphen"/>uing him the fruite of that bleſſing, the want whereof maketh him reproachfull, whereby he ſhameth to ac<g ref="char:EOLhyphen"/>company with men, as ſee<g ref="char:EOLhyphen"/>ming himſelfe to be leſſe
+<pb n="26" facs="tcp:17480:21"/>then a man. And ſeeing other mens children, hee grecueth, and wiſheth, that the worſt of them were his, and ſo ſeeketh carefully to adopt ſome other mans child.</p>
+               <p>If thy wife he fruitfull, ſo that ſhe hath many chil<g ref="char:EOLhyphen"/>dren that increaſe much, both the charge in bring<g ref="char:EOLhyphen"/>ing of them vp, and thy trouble in looking to them, ſhould make buſmes for thy ſelfe; thou muſt then prouide dainty meates, rich apparell, and other ſtrange delights, diligent Nurſes, worshipfull Goſ<g ref="char:EOLhyphen"/>ſips,
+<pb n="27" facs="tcp:17480:21"/>and learned Schoole<g ref="char:EOLhyphen"/>maſters: thou muſt ſatisfie her fantaſticall deſires, in her time of being with child, and her troubleſome frowardneſſe, night-cries of children, and the importu<g ref="char:EOLhyphen"/>nate demands of Nurſes, and oftentimes the negli<g ref="char:EOLhyphen"/>gence of Seruants, loſing more then the diligence of the maſter can gaine.</p>
+               <p>If thy children be good, and it fortune that they die, that greeueth thee much.</p>
+               <p>If they proue ill, and liue, that greeueth thee more.</p>
+               <p>If they be good and die,
+<pb n="28" facs="tcp:17480:22"/>the father muſt comfort himſelfe and the mother, from the fatherly ſorrow of ſuch mishaps as are be<g ref="char:EOLhyphen"/>falne to them, then ſhall the father know that all his paſ<g ref="char:EOLhyphen"/>ſed ioyes giue place to thoſe piercing ſorrowes.</p>
+               <p>If the children being good, doe liue, then the father greeueth he cannot bring them vp according to his deſire, or their deſert, alſo hee greeueth that hee hath not ſo many poſſeſſi<g ref="char:EOLhyphen"/>ons as ſonnes.</p>
+               <p>If they liue and proue euill, the father lamenteth that euer hee had begot
+<pb n="29" facs="tcp:17480:22"/>them, and ſighes that euer he married.</p>
+               <p>If hee chance to haue daughters, he can neither chuſe, nor ſo gouerne them, but that they wilbe beloued, ſued vnto, and fol<g ref="char:EOLhyphen"/>lowed.</p>
+               <p>If they be faire, it is hard to keepe them; if they be foule, it is hard to beſtow them.</p>
+               <p>If they be noble, it be<g ref="char:EOLhyphen"/>houeth the father to ſeeke husbands of like degree.</p>
+               <p>If they want their dowry or honour, the father hath then all the care, to him onely remaineth trouble
+<pb n="30" facs="tcp:17480:23"/>and trauaile.</p>
+               <p>If the daughters marry againſt the will of their fa<g ref="char:EOLhyphen"/>thers, the father is diſ<g ref="char:EOLhyphen"/>honoured.</p>
+               <p>If they ſtay and marry with their fathers conſent, he then reſteth in bonds; and when he hopeth to be quit of trouble, hee then falles into great troubles by them or their children, &amp;c. he muſt ſupply all their wants: the daughters are al<g ref="char:EOLhyphen"/>waies complayning, and ſometimes returne to the father. The ſonnes bring their wiues to the father, and which is more intole<g ref="char:EOLhyphen"/>rable,
+<pb n="31" facs="tcp:17480:23"/>the grand-child ho<g ref="char:EOLhyphen"/>peth to be made heire.</p>
+               <p>If the wife be sharpe and haſty, thou imagineſt shee loueth others beſides thee.</p>
+               <p>If shee fawne vpon thee, then thou maiſt well per<g ref="char:EOLhyphen"/>ſwade thy ſelfe, that either formerly shee hath decei<g ref="char:EOLhyphen"/>ued thee, or now intendeth to deceiue thee.</p>
+               <p>If shee be merry, thou thinkeſt it is, becauſe shee hath receiued ſome good newes from her Louers.</p>
+               <p>If she be ſad, thou think<g ref="char:EOLhyphen"/>eſt, ſome new loue tor<g ref="char:EOLhyphen"/>menteth her.</p>
+               <p>If shee be good, thou
+<pb n="32" facs="tcp:17480:24"/>feareſt she will die before thee.</p>
+               <p>If shee be ill, thou deſi<g ref="char:EOLhyphen"/>reſt her death euery day.</p>
+               <p>If she be brauely appa<g ref="char:EOLhyphen"/>relled, then art thou iea<g ref="char:EOLhyphen"/>lous.</p>
+               <p>If she be careleſly appa<g ref="char:EOLhyphen"/>relled, then art thou offen<g ref="char:EOLhyphen"/>ded.</p>
+               <p>If thou apparelleſt her gallantly, thou makeſt her to be the more gazed at.</p>
+               <p>If thou keepeſt her mean<g ref="char:EOLhyphen"/>ly, she diſdaineth it: for the one, thy neighbours and friends will accuſe thee of too much ſoftneſſe, and for the other, they wil con<g ref="char:EOLhyphen"/>demne
+<pb n="33" facs="tcp:17480:24"/>thee for very coue<g ref="char:EOLhyphen"/>touſneſſe.</p>
+               <p>If shee conuerſe with men, thou feareſt they be adulterers.</p>
+               <p>If with women, thou imagineſt they be Bawdes.</p>
+               <p>If she conuerſe with her kinred, thou ſuſpecteſt thy goods.</p>
+               <p>If with ſtrangers, then art thou iealous of thine honour.</p>
+               <p>If thou leaueſt her with<g ref="char:EOLhyphen"/>out a watch, thou art per<g ref="char:EOLhyphen"/>ſwaded that shee ſeekes by meanes of opportunitie, which maketh thecues whðilde; it is offered them.</p>
+               <pb n="34" facs="tcp:17480:25"/>
+               <p>If thou beeſt watchfull ouer her thy ſelfe, she ſhall be conſtrained to erre, for want of neceſſaries, which thou (perhaps) denieſt her. For it is the nature of wo<g ref="char:EOLhyphen"/>men, to be quieted with abundance, wheras they are diſcontented with ſcarcity.</p>
+               <p>If thou ſetteſt others to watch her, then they them<g ref="char:EOLhyphen"/>ſelues doe that which they prohibit others, for which, there muſt bee others to watch alſo ouer them; but howſoeuer, thy wife is ei<g ref="char:EOLhyphen"/>ther honeſt, or elſe shee is diſhoneſt.</p>
+               <p>If honeſt, she ought not
+<pb n="35" facs="tcp:17480:25"/>to be guided: if diſhoneſt, shee cannot be guided e<g ref="char:EOLhyphen"/>nough.</p>
+               <p>If thou giueſt her the go<g ref="char:EOLhyphen"/>uernment of thy whole houſe, thou muſt then ſerue her at command.</p>
+               <p>If thou reſerueſt any part thereof to thy ſelfe, shee then complaineth of the little truſt thou repoſeſt in her.</p>
+               <p>If thou makeſt her go<g ref="char:EOLhyphen"/>uernour of all, thou maiſt not doe any thing, thou canſt not be in any place, thou canſt not inuite any friend, thou canſt not giue any thing, but she knoweth
+<pb n="36" facs="tcp:17480:26"/>of it, &amp; muſt firſt giue thee leaue: nay, often-times therein shee breakes with thee, and ſo cauſeth that thou canſt not be ſo good as thy word, conſtraining to haue ſaw, for that wher<g ref="char:EOLhyphen"/>in thou art not faulty.</p>
+               <p>If thou giueſt her a limi<g ref="char:EOLhyphen"/>ted gouernment, either she will not accept it, or elſe she will not execute it, find<g ref="char:EOLhyphen"/>ing her ſelfe diſcontent, ſee<g ref="char:EOLhyphen"/>ing that there is no diffe<g ref="char:EOLhyphen"/>rence made betwixt her and thy ſeruants.</p>
+               <p>If shee praiſe any, thou feareſt that she loueth him whom she praiſeth.</p>
+               <pb n="37" facs="tcp:17480:26"/>
+               <p>If she blameth any, thou thinkeſt she diſſembles; for that it often happens that wit in women blames moſt thoſe whom they beſt loue.</p>
+               <p>If she can write and read, shee then writeth vnto her Louers, and receiueth let<g ref="char:EOLhyphen"/>tets from them alſo.</p>
+               <p>If shee can neither read nor write, shee cauſeth o<g ref="char:EOLhyphen"/>thers to read and write for her; and when thou art from home, and doeſt but write to her, others muſt ſee what thou writeſt.</p>
+               <p>If ſhee can read printed Bookes, in reading, ſhee mingleth that of the Ser<g ref="char:EOLhyphen"/>pent,
+<pb n="38" facs="tcp:17480:27"/>with that of the Scor<g ref="char:EOLhyphen"/>pion.</p>
+               <p>If ſhee cannot read, then being idle, ſhe hath many euill thoughts, which pro<g ref="char:EOLhyphen"/>duce and grow to euill acti<g ref="char:EOLhyphen"/>ons.</p>
+               <p>If ſhe be ſlow of ſpeech, then thou remembreſt, that where the ſtream is ſloweſt, the water is deepeſt.</p>
+               <p>If ſhee commands one ſeruant more than another, then thou feareſt that ſhee loueth him whoſe buſineſſe beſt contenteth her, and whom alſo ſhee comman<g ref="char:EOLhyphen"/>deth not, thou perſwadeſt thy ſelfe that ſhee loueth
+<pb n="39" facs="tcp:17480:27"/>him alſo, for that, in not commanding him ſome la<g ref="char:EOLhyphen"/>bour.</p>
+               <p>If ſhee ouer liue thee, thou dyeſt with doubt of honour.</p>
+               <p>If thou ouer-liueſt her, thou remayneſt with the troubles of thy houſe; then muſt thou bethink thy ſelf, in burying of thy old wife, how to get thee a new.</p>
+               <p>If thou haſt Children, thou careſt how to gouern them.</p>
+               <p>If thou haſt none, thou muſt reſtore halfe of thy wiues dowry.</p>
+               <p>If thou marrieſt a new
+<pb n="40" facs="tcp:17480:28"/>wife that hath children, then thine owne will go to wracke, and perhaps nei<g ref="char:EOLhyphen"/>ther of them both will thriue.</p>
+               <p>If ſhe be a widow, and hath no children, thou ſhalt be in doubt alſo not to haue the benefit of mar<g ref="char:EOLhyphen"/>riage.</p>
+               <p>If thou giueſt her too much liberty, then thou ſpoyleſt her.</p>
+               <p>If thou giueſt her too little, then wil ſhe be angry.</p>
+               <p>If thou ſuffereſt her to beautifie her ſelfe, the world will ſay thou art too holy, meaning too horney.</p>
+               <pb n="41" facs="tcp:17480:28"/>
+               <p>If ſhe would doe it, and thou doſt contradict it, then wilt thou ſeeme too rigorous.</p>
+               <p>If thou dwelleſt in the towne, thy children are brought vp without man<g ref="char:EOLhyphen"/>ners or vertue.</p>
+               <p>If in the City, thy wiues louers will alwaies be ſolli<g ref="char:EOLhyphen"/>citing her either by letters or meſſengers, and when thou art at home, ſhe will alwaies be quarrelling, and when thou art abroade, thou ſhalt neuer be free of ſuſpition.</p>
+               <p>If thou letteſt her bee ſeene, either abroade or
+<pb n="42" facs="tcp:17480:29"/>within dores, then beware the horne.</p>
+               <p>If thou keepeſt her cloſe vp, then neuer looke to be at reſt.</p>
+               <p>If thou leaueſt her a<g ref="char:EOLhyphen"/>lone when thou goeſt a<g ref="char:EOLhyphen"/>broad, thou doſt very ill; for though perhaps ſhee may not offend, yet yong womens fame is for the moſt part ſlippery.</p>
+               <p>If for company ſake thou doſt couple her with a young woman, they two wilbe ſure to agree in com<g ref="char:EOLhyphen"/>mitting euill, to pardon one the other.</p>
+               <p>If thou leaueſt an old
+<pb n="43" facs="tcp:17480:29"/>woman with her, then thou feedeſt a Bawd.</p>
+               <p>If a man of lowe condi<g ref="char:EOLhyphen"/>tion loue her, thou canſt not perceiue it.</p>
+               <p>If a Noble man loue her, then muſt thou be content to heare and ſee, but in any caſe be ſilent.</p>
+               <p>If ſhe be beloued, and doe not manifeſt it vnto thee, thou haſt reaſon to be iealous.</p>
+               <p>If ſhe do make it knowne to thee, it is either becauſe ſhee feares that thou haſt knowledge of it already, or elſe ſhe tells thee, to in<g ref="char:EOLhyphen"/>danger thee ſome way, or
+<pb n="44" facs="tcp:17480:30"/>elſe ſhe doth but draw the hooke with the one hand, to put it to againe with the other; or at leaſt ſhe doth it, thinking thereby to ob<g ref="char:EOLhyphen"/>taine thy greater truſt, that ſo with more ſecurity ſhe may after deceyue thee.</p>
+               <p>If ſhe loue thee not, thou eateſt and ſleepeſt with an enemy.</p>
+               <p>If ſhe ſeeme to loue thee, thou eateſt and drinkeſt, and ſleepeſt with a ſpie.</p>
+               <p>If ſhe loue thee not, art thou not alwaies ſorrow<g ref="char:EOLhyphen"/>full?</p>
+               <p>If ſhe breedeth child, then haſt thou trauell.</p>
+               <pb n="45" facs="tcp:17480:30"/>
+               <p>If ſhe beare it, thou haſt more:</p>
+               <p>If ſhe be ſicke, thou art amazed.</p>
+               <p>If ſhe ſo dies, thou art much perplexed.</p>
+               <p>If thou marrieſt a wife a<g ref="char:EOLhyphen"/>gaſt her parents will, then is it likely thou ſhall loſe her dowry, and therewith getteſt many enemies.</p>
+               <p>If thou takeſt he againſt the will of thine owne friends, thou art in danger to loſe thine owne inheri<g ref="char:EOLhyphen"/>tance, and getteſt hatred for her.</p>
+               <p>If ſhe be forced to take thee then is there no peace.</p>
+               <pb n="46" facs="tcp:17480:31"/>
+               <p>If thou beeſt forced to take her, there is alwaies ſtrife.</p>
+               <p>If thou marrieſt her for loue onely, then after the firſt affection is extingui<g ref="char:EOLhyphen"/>ſhed, and her prime of beauty paſt, her loue chan<g ref="char:EOLhyphen"/>geth to hatred, and loue was made onely for mar<g ref="char:EOLhyphen"/>riages, but it is like flowers which the Sunne quickly withereth.</p>
+               <p>If thou takeſt one of an<g ref="char:EOLhyphen"/>other mans chooſing, it be<g ref="char:EOLhyphen"/>hooueth thee to look that her dowry bee qualified, whereby thou mayſt after<g ref="char:EOLhyphen"/>wards liue ſo, that thou be
+<pb n="47" facs="tcp:17480:31"/>not iealous of her, nor diſ<g ref="char:EOLhyphen"/>cerne that others bee iea<g ref="char:EOLhyphen"/>lous of thee.</p>
+               <p>If thy parents compell thee to marry her, then haſt thou no ioy, and reuengeſt anger vpon thy wife.</p>
+               <p>If her friends force her to take thee, ſhe liueth al<g ref="char:EOLhyphen"/>wayes ſorrowfull, and re<g ref="char:EOLhyphen"/>uengeth her ſelfe vpon thee: and what ioy or peace can be expected in that houſe, where one of the Principalls is alwaies diſcontented: there neuer hapneth one earthquake, but it maketh the buildings beate together. Where the
+<pb n="48" facs="tcp:17480:32"/>Ocean is troubled, all leſſe ſprings muſt needs par<g ref="char:EOLhyphen"/>take; when the Sunne is eclipſed, all the ſeuen Ele<g ref="char:EOLhyphen"/>ments ſuffer; and when the head akes, all the other members languiſh.</p>
+               <p>If the mother and kin<g ref="char:EOLhyphen"/>dred of thy wife which thou wilt take, were chaſt, thou then feareſt, remem<g ref="char:EOLhyphen"/>bring that nothing vnder the Sun continueth ſtable, as Seeds &amp; Vines alter with time, and all things grow worſe with age, and how Vertue is altered with Vice, and Vice with Vertue.</p>
+               <p>If they were diſhoneſt,
+<pb n="49" facs="tcp:17480:32"/>thou knoweſt that a Heifer bringeth not forth a Fawn; and when thou ſeeſt an al<g ref="char:EOLhyphen"/>teration, thou knoweſt that euery one is more prone to euill then good.</p>
+               <p>If her father were a foole, thou thinkeſt ſhee muſt be like her father.</p>
+               <p>If wiſe, thou knoweſt that wiſe fathers haue often<g ref="char:EOLhyphen"/>times fooliſh children. And the reaſon is, that when they beget them, their wiſe mindes are oftentimes be<g ref="char:EOLhyphen"/>ſotted of fooliſh matters.</p>
+               <p>If before ſhee was mar<g ref="char:EOLhyphen"/>ried to thee, ſhe had other Loues, thou haſt cauſe to
+<pb n="50" facs="tcp:17480:33"/>feare, left they they continue ſo to her ſtill.</p>
+               <p>If ſhee knew not how to loue before ſhee was mar<g ref="char:EOLhyphen"/>ried, thou feareſt that ſhee doth it neither now effectu<g ref="char:EOLhyphen"/>ally.</p>
+               <p>If in her maydenhead ſhe had thee onely a ſuter, and was then vnkinde vnto thee, that will often cauſe hatred betweene you euen till death.</p>
+               <p>If ſhe then graunted thy requeſt being vnmarried, thou maiſt iuſtly feare, ſhe will doe as much for others when as ſhe is married.</p>
+               <p>If thou fulfilleſt all her
+<pb n="51" facs="tcp:17480:33"/>deſires, thou makeſt her vn<g ref="char:EOLhyphen"/>bridled and licentious.</p>
+               <p>If thou doeſt not fulfill them, ſhee will then be al<g ref="char:EOLhyphen"/>wayes melancholy and wrathfull.</p>
+               <p>If thou doſt then reproue her, ſhe ſinnes of cuſtome.</p>
+               <p>If thou threatneſt her, ſhe calls her friends to wit<g ref="char:EOLhyphen"/>neſſe.</p>
+               <p>If thou entreateſt her, ſhe laughes thee to ſcorne a<g ref="char:EOLhyphen"/>mong thy neighbours.</p>
+               <p>If thou correcteſt her, ſhe will neuer be pleaſed.</p>
+               <p>If thou forgiueſt her ſhe will be intolerable.</p>
+               <p>If thou doſt not clothe
+<pb n="52" facs="tcp:17480:34"/>her honorably, thou leaueſt her honor in great hazard.</p>
+               <p>If when thou goeſt to bed, thou findeſt her cold, thou feareſt leſt ſhee hath bin far from her owne bed.</p>
+               <p>If thou feeleſt her hot, thou imagineſt ſhee hath beene about ſome other mans buſineſſe.</p>
+               <p>If ſhe haue beene thy fel<g ref="char:EOLhyphen"/>low Citizen, then will ſhee be much familiar with you. If ſhe was a ſtra<g ref="char:cmbAbbrStroke">̄</g>ger, thðilde; haſt thou not knowne her life.</p>
+               <p>If thou haſt loued her, know, that after faire wea<g ref="char:EOLhyphen"/>ther, comes raine, and after loue, hatred.</p>
+               <pb n="53" facs="tcp:17480:34"/>
+               <p>If thou haſt not loued her, then haſt thou no pleaſure with her.</p>
+               <p>If thou doeſt reueale any ſecrets vnto her, ſhe diſclo<g ref="char:EOLhyphen"/>ſeth them.</p>
+               <p>If thou keepeſt them fro<g ref="char:cmbAbbrStroke">̄</g> her, then ſhee complaineth that thou truſteſt her not.</p>
+               <p>If thou doſt not adorne and decke her vp, ſhe will neuer care for thee.</p>
+               <p>If thou doeſt adorne her, then wil ſhe pleaſe others as well as thee; and if ſhe de<g ref="char:EOLhyphen"/>ſire to pleaſe thee only, ſhe would not then beautifie her ſelfe in that morning when ſhe is to goe abroad:
+<pb n="54" facs="tcp:17480:35"/>but rather in the euening when ſhe is to come vnto thy bed.</p>
+            </div>
+            <div n="3" type="chapter">
+               <head>CHAP. III.</head>
+               <head type="sub">Wherein is diſcourſed of other con<g ref="char:EOLhyphen"/>ditions of many folkes.</head>
+               <p>COncerning the eſtate and conditions of the married life, what ſhall I ſay more?</p>
+               <p>If thou art poore, hauing a wife, and beholding thy children, thou art conſu<g ref="char:EOLhyphen"/>med euen with care of en<g ref="char:EOLhyphen"/>riching thy ſelfe.</p>
+               <p>If thou art rich, then art thou troubled with care of keeping of them, as alſo
+<pb n="55" facs="tcp:17480:35"/>tormented with feare of lo<g ref="char:EOLhyphen"/>ſing them, for that as be<g ref="char:EOLhyphen"/>fore I ſaid, I doe not ſo much ſpeake vnto thee that art a King, as to other men that are not of the honour, but of that humour that thou art in againe.</p>
+               <p>If thou beeſt poore, thou learneſt leaſt.</p>
+               <p>If either pouerty, or the prouocation of all euill, or riches, the corrupters of chaſte mindes, doe op<g ref="char:EOLhyphen"/>pugne, and in time cleaue, wiſh away the honeſty of thy wife.</p>
+               <p>If thou beeſt rich, thou<g ref="char:EOLhyphen"/>art much afraid, leſt wan<g ref="char:EOLhyphen"/>ton
+<pb n="56" facs="tcp:17480:36"/>eaſe and delicate laſci<g ref="char:EOLhyphen"/>uiouſneſſe afford too many imaginations to the hurt of thy Spouſe.</p>
+               <p>If thou liueſt alone, then thou liueſt contrary to the cuſtome of all humanity.</p>
+               <p>If thou haſt much ac<g ref="char:EOLhyphen"/>quaintance, thou art then ſuſpected of much deceit.</p>
+               <p>If thou haſt no friends, thou wanteſt then the chie<g ref="char:EOLhyphen"/>feſt good that is in the world.</p>
+               <p>If thou haſt many friends, thou pleaſeſt not thy wife, for that ſhe couets alwayes to haue all thy loue be<g ref="char:EOLhyphen"/>ſtowed on her.</p>
+               <pb n="57" facs="tcp:17480:36"/>
+               <p>If thou beeſt married to a yong woman, ſhe is ouer<g ref="char:EOLhyphen"/>quicke and haſty.</p>
+               <p>If to an old wife, ſhe is ouer-ſlow: and herein a yong wife vnſinnewes the body of his chiefe ſtrength, waſteth and conſumeth thy pleaſant age, brings for thee children of little value and account, and an old wife becommeth iealous, thou art called foole, ha<g ref="char:EOLhyphen"/>uing wealth, and wanting poſterity to inherite it.</p>
+               <p>If thou beeſt ſtudious, thou canſt not intend thy booke and thy wife too.</p>
+               <p>If the ſtudy of hunting,
+<pb n="58" facs="tcp:17480:37"/>and of Armes doe delight thee, either the one, or the other diſpleaſeth thy wife, and breeds contrariety in thy matrimony.</p>
+               <p>If thou beeſt a Tradeſ<g ref="char:EOLhyphen"/>man, and intending thy buſineſſe and affaires, thou canſt haue but little care of thy wife.</p>
+               <p>If thou beeſt a Gentle<g ref="char:EOLhyphen"/>man, a Citty ſet on a hill cannot be hid. What then wilt thou doe in ſuch a ne<g ref="char:EOLhyphen"/>ceſſity? Hence the Ham<g ref="char:EOLhyphen"/>mer, thence the Anuill; here the dore, there the wall; whatſoeuer thou wil<g ref="char:EOLhyphen"/>leſt, vexation and trouble
+<pb n="59" facs="tcp:17480:37"/>is on all ſides; to one of thoſe extremities thou art forced. That which the husband oftentimes deſi<g ref="char:EOLhyphen"/>reth, that, for the moſt part, the wife contemneth.</p>
+               <p>But if thou ſhalt ſay vn<g ref="char:EOLhyphen"/>to me, that I carry things too much one way, and too little another way, and that thou wilt bee aduiſed to finde the golden way, be<g ref="char:EOLhyphen"/>twixt ſo great exceſſe; I an<g ref="char:EOLhyphen"/>ſwere thee, that if thou canſt poſſibly finde a wife, that is neither faire, nor foule; neither rich, nor poore; neither baſe, nor noble; neither fooliſh, nor
+<pb n="60" facs="tcp:17480:38"/>witty; neither, honeſt, nor diſhoneſt; neither barren nor fruitfull; and as I haue diſcourſed, through all the propoſed conditions: and on the contrary, if there can a husband be found, that is neither rich, nor poore, nei<g ref="char:EOLhyphen"/>ther old, nor yong; neither baſe, nor noble; neither fooliſh, nor witty; nei<g ref="char:EOLhyphen"/>ther honeſt, nor diſho<g ref="char:EOLhyphen"/>neſt, nor in any of thoſe extremes which I haue be<g ref="char:EOLhyphen"/>fore touched; then will I content my ſelfe that thou beeſt married.</p>
+               <p>But where are they, that we may ſeeke them? when
+<pb n="61" facs="tcp:17480:38"/>ſhall they come, that wee may behold them?</p>
+            </div>
+            <div n="4" type="chapter">
+               <head>CHAP. IIII.</head>
+               <head type="sub">Concerning ſome other miſeries in<g ref="char:EOLhyphen"/>cident to the married life.</head>
+               <p>OWretched man, if thou diſt but know how deare it did coſt thee to be married, that in the very day in which thou art to bee betrothed vnto a wife, thou makeſt thy ſelfe more ready to be intomb<g ref="char:EOLhyphen"/>ed in thy graue.</p>
+               <p>A wife, ah a wife! alaſſe, ther's not one member, that will not coſt the weight in
+<pb n="62" facs="tcp:17480:39"/>gold. Her haire is valued at as much as the Pearles, the Imbroderings, the Aglets and Roſes, with which ſhee adorneth her ſelfe.</p>
+               <p>Her forehead, as the Frontlets which ſhe wea<g ref="char:EOLhyphen"/>reth therevpon.</p>
+               <p>Her Eares, as the Pen<g ref="char:EOLhyphen"/>dants that hang thereat.</p>
+               <p>Her eyelids and her breath, as the odours and ſweete perfumes which ſhe imployeth therein.</p>
+               <p>Her Cheekes, as the painting both of white and red which ſhe conſumeth.</p>
+               <p>Her lips, as with the ſoft
+<pb n="63" facs="tcp:17480:39"/>furres wherewith ſhe ouer<g ref="char:EOLhyphen"/>ſhadoweth them.</p>
+               <p>Her mouth, as the dainty meates which ſhee mini<g ref="char:EOLhyphen"/>ſtreth vnto it.</p>
+               <p>Her Necke, as the Cur<g ref="char:EOLhyphen"/>rals and Amber, the chaines and other wanton toyes that ſhe hangeth about it.</p>
+               <p>Her breſts, as the pre<g ref="char:EOLhyphen"/>cious ſtones wherewith ſhe inuironeth them.</p>
+               <p>Her ſhoulders, as the vayles and Cypres where<g ref="char:EOLhyphen"/>with ſhe is couered.</p>
+               <p>Her armes, as the brace<g ref="char:EOLhyphen"/>lets which ſhe weareth.</p>
+               <p>Her hands, as the ſweet waters, precious oynt<g ref="char:EOLhyphen"/>ments,
+<pb n="64" facs="tcp:17480:40"/>perfumed Gloues, and gallant Fannes where<g ref="char:EOLhyphen"/>with ſhe adorneth her ſelf.</p>
+               <p>Her fingers, as the Iew<g ref="char:EOLhyphen"/>els and Rings, wherewith ſhe couereth them.</p>
+               <p>Her ſides, as the Girdle wherewith ſhe imbraceth her ſelfe.</p>
+               <p>Her feete, as the ſhooes which ſhee ſpendeth vpon them.</p>
+               <p>Finally her whole body, as the Garments where<g ref="char:EOLhyphen"/>with ſhe is clothed, which e<g ref="char:EOLhyphen"/>uery day ſhe changeth and rechangeth, yet being vnſa<g ref="char:EOLhyphen"/>tiable, is neuer pleaſed nor contented.</p>
+               <pb n="65" facs="tcp:17480:40"/>
+               <p>Her eies being ſuch, as no ſooner ſeeing ſuch hangings, ſuch ornaments, but ſtraight ſhee coueteth them.</p>
+               <p>Her tongue ſo impu<g ref="char:EOLhyphen"/>dent, that ſhee no ſooner ſeeth them, but preſently demandeth them.</p>
+               <p>Shee will be alwayes de<g ref="char:EOLhyphen"/>manding of apparell, and muſt alwayes haue Cheſts full.</p>
+               <p>Shee careth little though her children goe as naked as the Trees in December, though her houſe bee as much noted as that of the Fencers: So that for get<g ref="char:EOLhyphen"/>ting
+<pb n="66" facs="tcp:17480:41"/>her apparell, her huſ<g ref="char:EOLhyphen"/>band becomes a begger, and they are faine in the end to betake themſelues to an Hoſpitall.</p>
+               <p>In the day, the husband muſt labour abroad, and in the night at home, ſtrife &amp; contention is in his bed; trouble and ſorrow at his Table; when hee thinketh to eate, then is he compel<g ref="char:EOLhyphen"/>led to brawle; and when hee thinketh to ſleepe, hee muſt hearken to her reui<g ref="char:EOLhyphen"/>lings.</p>
+               <p>O wretched man that in<g ref="char:EOLhyphen"/>tendeſt to marry a woman! thou muſt goe vnto the
+<pb n="67" facs="tcp:17480:41"/>eyes of <hi>Argus,</hi> to keep her; the eares of <hi>Faues,</hi> to hear<g ref="char:EOLhyphen"/>ken after her; the noſe<g ref="char:EOLhyphen"/>thrils of a Wolfe, that thou maiſt ſmel out her defects: The tongue of a Fiſh, that thou be ſilent at her braw<g ref="char:EOLhyphen"/>lings: The ſtomake of an Eſtridge, to diſgeſt her re<g ref="char:EOLhyphen"/>proches: The necke of a Bull, to ſupport the heauy yoke: The Crowne of <hi>Pan</hi> wouen with thornes, to co<g ref="char:EOLhyphen"/>uer thy horne: The feete of a Hart to runne from her ſnares: The riches of <hi>Craſſus,</hi> or rather of <hi>Croe<g ref="char:EOLhyphen"/>ſus,</hi> to ſatisfie her: The luſt of a Spaniard to content
+<pb n="68" facs="tcp:17480:42"/>her: The ſtrength of a horſe to endure her: The drowſineſſe of a Slow<g ref="char:EOLhyphen"/>worme, to ſleepe amidſt her chidings: The hunger of <hi>Eriſeton,</hi> to deuoure her clamours.</p>
+               <p>Wee mortall men com<g ref="char:EOLhyphen"/>mit all things to the truſt of other men; but it is wel, ſo long as we commit them to the truſt of men: As our fields to the Husbandmen: our Heards to the Paſtors: our Gardens to the Gardi<g ref="char:EOLhyphen"/>ners: our houſe to our men<g ref="char:EOLhyphen"/>ſeruants: our chambers to our Maid-ſeruants: our ſecrets to our friends: our
+<pb n="69" facs="tcp:17480:42"/>writings to the Notaries: out Robes to the Aduo<g ref="char:EOLhyphen"/>cates: our Merchandizes to the Mariners: our ſons to their Tutors: our daugh<g ref="char:EOLhyphen"/>ters to their friends: our heads to the Barbers: our liues to the Phiſicians: But our honour, which is more precious then all theſe, we commit into the hands of a ſilly woman, in ſuch ſort, as we muſt neuer againe de<g ref="char:EOLhyphen"/>mand it, neuer can releaſe it, nor neuer can be ſure of it.</p>
+               <p>Thou canſt not be called a Blaſphemer, if thou didſt neuer curſe; nor a periured
+<pb n="70" facs="tcp:17480:43"/>companion, if thou didſt not ſweare, in that which is falſe, nor a deſpiſer, if thou didſt not contemne the gods; nor an homicide, if thou neuer committedſt murther; nor a thiefe, if thou didſt neuer ſteale; nor a coozener, if thou didſt neuer deceiue; nor a tre<g ref="char:EOLhyphen"/>cherous perſon, if thou didſt neuer deale falſly with thy friends; nor an adulterer, if by no meanes thou didſt neuer attempt another mans wife; neither can any of theſe faults bee imputed vnto thee, if thou didſt neuer offend, nor de<g ref="char:EOLhyphen"/>ſire
+<pb n="71" facs="tcp:17480:43"/>to commit them. But thou maiſt be iniuried by a greater matter then all theſe, if (though without thy will, or without thy fault) another man goeth with deſire to thy wife.</p>
+               <p>O wretched man, it is a wonder to ſee, what danger thou art come in: All other things are ſeene and conſi<g ref="char:EOLhyphen"/>dered on, before they are bought: A houſe, if it be to be bought, is marked and obſerued: the Inſtru<g ref="char:EOLhyphen"/>ments are heard; the Me<g ref="char:EOLhyphen"/>lons are ſmelled vnto; the wine is taſted of; the cloth is felt; the timber is fitted;
+<pb n="72" facs="tcp:17480:44"/>the glaſſes are touched, to ſee if they be found on all fides; the Lute is choſen; the ſtrings are ſtretched; the wood is meaſured; the ſhooes are pulled on; the Horſe is backed; the Cow is choſen out: and to bee briefe, all things are pro<g ref="char:EOLhyphen"/>ued, when we buy them to gaine by them. But if in our marriage the bargaine be once concluded, then art thou married to the Sunne, thou canſtineuer re<g ref="char:EOLhyphen"/>fuſe, whilſt thou liueſt, but muſt remaine with thy wife euen vutill death: ſhe is ta<g ref="char:EOLhyphen"/>ken blind-fold, as men vſe
+<pb n="73" facs="tcp:17480:44"/>to play at blinde; as the Cat, or rather the Cat in the ſacke, ſhe is not proued, leſt ſhe ſhould be refuſed vpon the triall: neither is ſhee ſeene, for that if ſhee were, ſhe would ſooner be refu<g ref="char:EOLhyphen"/>ſed then accepted.</p>
+               <p>Whoſo will buy fleſh, they may goe to the Sham<g ref="char:EOLhyphen"/>bles, and pay for it: and if they will haue fiſh, they may haue it in the Fiſh<g ref="char:EOLhyphen"/>market.</p>
+               <p>And ſhe that will be mar<g ref="char:EOLhyphen"/>ried, let her pay her huſ<g ref="char:EOLhyphen"/>band firſt for taking of her.</p>
+               <p>It is maruaile if ſhee ſhould ſtand, and be freſh &amp; new.</p>
+               <pb n="74" facs="tcp:17480:45"/>
+               <p>It is ſtrange that her friends ſhould haue ſuch deſire to hunt her out of the houſe, and that ſhe is ſo willing oftentimes, to re<g ref="char:EOLhyphen"/>turne againe. Looke how much the greater thy bar<g ref="char:EOLhyphen"/>gaine ſeemes to be, ſo much the worſe is the fleſh, and looke by how much the richer thy wife is in dowry, ſo much the poorer is ſhee in vertue.</p>
+               <p>If thy Garments do not fit thee well, thou mayſt cauſe them to be made a<g ref="char:EOLhyphen"/>gaine.</p>
+               <p>If thou haſt a Ring, that is either too great or too
+<pb n="75" facs="tcp:17480:45"/>little for thee, thou mayſt cauſe it to be new caſt.</p>
+               <p>If the money thou haſt, like thee not, thou mayſt change it.</p>
+               <p>If one houſe like thee not, thou mayſt remoue to another.</p>
+               <p>If thy field pleaſe thee not, thou canſt ſell it away.</p>
+               <p>If a ſeruant be not for thy purpoſe, thou mayſt diſmiſſe him.</p>
+               <p>If thou haſt a ſiſter that is offenſiue vnto thee, thou mayſt marry her to a hus<g ref="char:EOLhyphen"/>band.</p>
+               <p>But thy wife, howſo<g ref="char:EOLhyphen"/>euer ſhe come vnto thee,
+<pb n="76" facs="tcp:17480:46"/>thou muſt of neceſſity keepe her vntill her death.</p>
+               <p>If her friends would bid thee marry her for a touch, as when we buy Capons: O, for a taſte, as we vſe to buy Millions: Or for a proofe, as we vſe to buy Shooes: Or for a time, as we vſe to buy our Cattell: Or for ſo long as ſhe ſhall remaine good, as we vſe to buy hor<g ref="char:EOLhyphen"/>ſes: Or vntill wee might change her as we doe our money.</p>
+               <p>Then would I counſell thee to take her, and to proue her: if ſhe like thee, to hold her: if not, refuſe
+<pb n="77" facs="tcp:17480:46"/>her, and all ſhe brought, euen as thou wert married to her.</p>
+               <p>But the law is ouer-ſtrict, and for this cauſe is it o<g ref="char:EOLhyphen"/>uer-ſtrict, for that if the ſe<g ref="char:EOLhyphen"/>cond day thou ſhouldeſt refuſe her, and all thou hadſt with her, then no wo<g ref="char:EOLhyphen"/>man will euer care for thee againe.</p>
+               <p>Thy friends will neuer more ſpeake for thee: thy enemies will begin to re<g ref="char:EOLhyphen"/>ioyce at thee: thy parents wilbe ſorry for thee: thy daughters will diminiſh thy ſubſtance: thy houſe will increaſe thy trauell:
+<pb n="78" facs="tcp:17480:47"/>the honour of thy family will begin to die: thy wife will begin to ſhorten thy life: thy ſonnes will begin to deſire thy death: thy dowry will not ſerue to be<g ref="char:EOLhyphen"/>gin another contract.</p>
+               <p>Thy wife can bee no more aſſured to thee, for that ſhee belongs to ano<g ref="char:EOLhyphen"/>ther man.</p>
+               <p>Thy Children may bee taken from thee, becauſe they are not thine owne.</p>
+               <p>What a foole ſhall he be accounted, that buyeth a houſe, to the doore where<g ref="char:EOLhyphen"/>of euery man hath a key?</p>
+               <p>Is not he ſuch a foole,
+<pb n="79" facs="tcp:17480:47"/>that taketh a wife?</p>
+               <p>Is there not any man in the world, that keepeth a key for the honeſty of any woman?</p>
+               <p>There are foure things that deceiue a man out of his owne houſe, ſmoke, fire, a rotten roofe, and a chur<g ref="char:EOLhyphen"/>liſh wife.</p>
+               <p>The ſmoke is remedied, by putting out the fire.</p>
+               <p>The fire is quenched, by caſting on water.</p>
+               <p>The roofe is amended, by laying on new Tyles.</p>
+               <p>But for the frowardnes of a wife, there is no remedy can be found; that is into<g ref="char:EOLhyphen"/>lerable
+<pb n="80" facs="tcp:17480:48"/>for euer.</p>
+               <p>But I end, leſt that thou thinke I make a hiſtory.</p>
+            </div>
+            <div n="5" type="chapter">
+               <head>CHAP. V.</head>
+               <head type="sub">Wherein is recollected diuers exam<g ref="char:EOLhyphen"/>ples of Women, that haue mur<g ref="char:EOLhyphen"/>dred their husbands.</head>
+               <p>FOr the proofe, and ex<g ref="char:EOLhyphen"/>ample, and confirmati<g ref="char:EOLhyphen"/>ons of this, there ſhall be brought the examples of things not onely paſt, but alſo to come; for that the Stars, in contemplating vp<g ref="char:EOLhyphen"/>on which, I am wont to ſpend many a faire night, do prognoſticate vnto me
+<pb n="81" facs="tcp:17480:48"/>a thouſand grieuous e<g ref="char:EOLhyphen"/>uents to happen, and a<g ref="char:EOLhyphen"/>mongſt others, great plenty of ſuch as theſe to happen, which makes ſo infinit a number of husbands to go to their wiues ſorrowing.</p>
+               <p>
+                  <hi>Agamemnon</hi> was ſlaine by his wife <hi>Clitemneſtra;</hi> the ſonnes of <hi>Aegiſtus,</hi> of the daughters of <hi>Danaus:</hi> and ſo it hapned to the hus<g ref="char:EOLhyphen"/>bands of the ſiſters of <hi>Albi<g ref="char:EOLhyphen"/>na: Alexander Fereus,</hi> of his owne wife; <hi>Albinus</hi> of <hi>Roſa<g ref="char:EOLhyphen"/>mond; Antioch</hi> of <hi>Laodicea:</hi> ſo it hapned in like man<g ref="char:EOLhyphen"/>ner to <hi>Antonius,</hi> being mur<g ref="char:EOLhyphen"/>dred of <hi>Lucilla, Gandulph</hi>
+                  <pb n="82" facs="tcp:17480:49"/>alſo of his owne wife, <hi>Sale<g ref="char:EOLhyphen"/>otus</hi> of his ſpouſe, <hi>Ninus Fabius</hi> of <hi>Fabia, Tybertus Caeſar</hi> of <hi>Agrippina,</hi> and a thouſand more, which to collect would be too long: The greater of thoſe ei<g ref="char:EOLhyphen"/>ther had beene, or after ſhould haue beene kings.</p>
+            </div>
+            <div n="6" type="chapter">
+               <head>CHAP. VI.</head>
+               <head type="sub">Wherein is ſhewne how hard and difficult a thing it is, to keepe the honeſty of a woman.</head>
+               <p>DOſt thou not imagine, that with thy gates ſhut, thy windowes locked, thy eares open, thy eies watching, a thouſand keies,
+<pb n="83" facs="tcp:17480:49"/>neuer ſo many chaines, vi<g ref="char:EOLhyphen"/>gilant friends, infinite guards do keep the mode<g ref="char:EOLhyphen"/>ſty of thy wife, when ſhe is in her conceite? chooſe thee the contrary, ſhut her in the higheſt and ſtrongeſt Tower, that ſhe cannot get out to talke with her lo<g ref="char:EOLhyphen"/>uers, by which meanes the wife of old <hi>Fuldericus</hi> kept her faith, being in amored of faire <hi>Ordancus.</hi>
+               </p>
+               <p>Commit her to thy Pa<g ref="char:EOLhyphen"/>rents, and ſhe is not ſafe in their cuſtody, which is made plaine in <hi>A. B.</hi> that was inamored of her owne Brother.</p>
+               <pb n="84" facs="tcp:17480:50"/>
+               <p>Commit her to her owne friends either, ſhe is as ill, as the example of <hi>Francis,</hi> Queene of <hi>Armenia.</hi>
+               </p>
+               <p>Neither is there any ſafety in committing her to thy Nephewes; for ſo <hi>Tractanus</hi> fell in loue with <hi>Hilippia.</hi>
+               </p>
+               <p>Neither is ſhe in ſafety in being commited to thy ſonnes in law: for we know, <hi>Phoedra</hi> did not ſpare to ſport with <hi>Hyppolita.</hi>
+               </p>
+               <p>Neither is ſhe ſecure in being committed vnto thy friends: for ſo <hi>Gabrina</hi> could not content her ſelfe to make one kill her hus<g ref="char:EOLhyphen"/>band, but afterwards fell in
+<pb n="85" facs="tcp:17480:50"/>loue with the murtherer.</p>
+               <p>If ſhe be not chaſte, why did ſhee not at the firſt ac<g ref="char:EOLhyphen"/>cord with thee, to place an<g ref="char:EOLhyphen"/>other in her ſtead, as <hi>Elippo</hi> did to <hi>Mariſſo?</hi>
+               </p>
+               <p>If ſhe once telleth thee all her loue, then know, ſhe goeth about to betray thee, and ſo to gaine op<g ref="char:EOLhyphen"/>portunity of gayning him.</p>
+               <p>So did <hi>Edatrice,</hi> the wife of <hi>Eganus:</hi> and if ſhe with him deceiue thee, ſhe will yet perſwade thee, that it is ſome other woman, as <hi>Iza<g ref="char:EOLhyphen"/>bel</hi> did to her husband <hi>Ag<g ref="char:EOLhyphen"/>nutius.</hi>
+               </p>
+               <p>Count her thy Godren:
+<pb n="86" facs="tcp:17480:51"/>and if any man tell thee that her loue is within thy houſe ſhe will make thee beleeue that it is but a falſe report; for ſo did the wife of <hi>John Latharinus.</hi>
+               </p>
+               <p>If thou ſetteſt a watch for her at thy gates, ſhe will make ſhift to bring in her Louer at the roofe of the houſe, as did the wife of <hi>Ga<g ref="char:EOLhyphen"/>loſus.</hi> Nay though ſhe hath ſometimes two louers in the houſe, yet wil ſhe make thee beleeue, that which ſhe knoweth, ſhalbe ſure to make moſt for her pur<g ref="char:EOLhyphen"/>poſe. At one time ſhe will haue <hi>Leanettus,</hi> at another
+<pb n="87" facs="tcp:17480:51"/>time, <hi>Lambertius.</hi>
+               </p>
+               <p>If thou beeſt minded to ſhut her out of doores, ſhee will preuent thee, and ſhut thee out firſt: for ſo did the wife of <hi>Latonus.</hi>
+               </p>
+               <p>Thought thou dwelleſt with her in the houſe, and doſt liſten after her, and talke with her, yet at the ve<g ref="char:EOLhyphen"/>ry ſame time, alſo will ſhe ſport with her louers, as did <hi>Poronella,</hi> who hauing pla<g ref="char:EOLhyphen"/>ced her husband in the Barke, whiles ſhe ſayled a<g ref="char:EOLhyphen"/>long the ſhore, made the horns to ſhew on his head.</p>
+               <p>Yea though thou ſhoul<g ref="char:EOLhyphen"/>deſt ſee it, and behold it
+<pb n="88" facs="tcp:17480:52"/>with thine eyes, yet will ſhe make thee conceale it with thine owne eyes, and compell thee to ſay, thou ſaweſt not that which thou didſt ſee.</p>
+               <p>Such is the wonderfull audaciouſneſſe of women, as we ſee <hi>Lidia</hi> dealt with <hi>Nichoſtratus.</hi> To be briefe, when thou ſleep'ſt, though ſhe lye on the ſelfe-ſame Bed with thee, though thou ſhouldeſt take ano<g ref="char:EOLhyphen"/>ther man with thee, to watch her, yet ſhee, in the middeſt of you both, will admit a hyred company, and ſo deceyue and de<g ref="char:EOLhyphen"/>fraud
+<pb n="89" facs="tcp:17480:52"/>you both; for ſo was <hi>Fauſtus</hi> and <hi>Fecundus</hi> be<g ref="char:EOLhyphen"/>trayed of the harlot <hi>Fio<g ref="char:EOLhyphen"/>metta.</hi>
+               </p>
+               <p>What then wilt thou do? in what brazen Tower wilt thou ſhut her? with what chaines wilt thou bind her? vnder what locks and keyes wilt thou keepe her? what Champions wilt thou haue to guard her? into whoſe cuſtody wilt thou commit her? for though her huſ<g ref="char:EOLhyphen"/>band had as many eyes, as haires, yet will his wife de<g ref="char:EOLhyphen"/>ceiue him. When it ſhall therfore happen that thou art minded to marry, thou
+<pb n="90" facs="tcp:17480:53"/>muſt pray to God to ſend thee a good wife, and to take from her all opportu<g ref="char:EOLhyphen"/>nities of offending.</p>
+            </div>
+            <div n="7" type="chapter">
+               <head>CHAP. VII.</head>
+               <head type="sub">Wherin are touched diuers cuſtomes vſed at Marriages.</head>
+               <p>AT the Firſt touching with the hand, it is a cuſtome with many, to buy their wiues with a Ring, that by compaſſing her finger with a Ring with a precious ſtone, or with gold, ſhee thereby circumuents her heart with a deſire of gold, of Iemmes and Iewels.</p>
+               <p>When the Marriage is ſolemnized, there are none
+<pb n="91" facs="tcp:17480:53"/>admitted to be preſent, ex<g ref="char:EOLhyphen"/>cept the parents, to pre<g ref="char:EOLhyphen"/>uent that the wife may not in one day become both a wife and a Louer.</p>
+               <p>The husband and the wife are both couered with one vaile, to giue her to vnderſtand, that ſhee muſt conceale her affections from all, except her huſ<g ref="char:EOLhyphen"/>band.</p>
+               <p>At the ſolemnity of the Marriage, is brought in fire and water, and preſented to the husband, to ſhew therein, that to what end ſoeuer he turneth himſelfe, he is in danger either in be<g ref="char:EOLhyphen"/>ing
+<pb n="92" facs="tcp:17480:54"/>burned or drowned.</p>
+               <p>Before the Bride, is vſed to be carried Torches bur<g ref="char:EOLhyphen"/>ning, and behinde her, a hooke hanging downe; which is done, to ſignifie, that the houſe into which ſhe goeth, ſhee will ſet fire to it, and that ſhe draweth out of the houſe, fro<g ref="char:cmbAbbrStroke">̄</g> which ſhee commeth, as much as ſhe can.</p>
+               <p>The Nuptials are com<g ref="char:EOLhyphen"/>mo<g ref="char:cmbAbbrStroke">̄</g>ly ſolemnized at night, as if the Sunne ſcorned to behold them.</p>
+               <p>The Spouſe is not per<g ref="char:EOLhyphen"/>mitted to tread vpon the threſhold of the dore, be<g ref="char:EOLhyphen"/>cauſe
+<pb n="93" facs="tcp:17480:54"/>the very gate thorow which the husband muſt paſſe, reiecteth the euill, which it ſhould receiue fro<g ref="char:cmbAbbrStroke">̄</g> the feete of the wife, which vſeth alſo to bee anointed and ſprinkled with oyle, that it may the leſſe ſmell of that hard cruelty and ſharp ſeuerity that the wife bringeth with her, who at her firſt entrance into the houſe, alwayes ſetteth her right foote forward, to ſig<g ref="char:EOLhyphen"/>nifie, that the laſt thing, which ſhee putteth vnder her husbands roofe, is her heart.</p>
+               <p>Moreouer, in ſome pla<g ref="char:EOLhyphen"/>ces
+<pb n="94" facs="tcp:17480:55"/>for thoſe cuſtomes, which I reckon vp, are not all vſed in our Countries; but in others the wife neuer vſeth to cooke any thing that the husband eateth, to ſignifie that all her workes be raw.</p>
+               <p>The day in which the wife is eſpouſed vnto her husband, ſhee banqueteth amongſt her friends, and inuiteth company with her, which is done to the end, that that day ſhee might be ſatisfied.</p>
+               <p>Her body is girt in a gir<g ref="char:EOLhyphen"/>dle of diuers colours, to giue vs to vnderſtand, that
+<pb n="95" facs="tcp:17480:55"/>her heart is compaſſed with diuers and ſtrange imagi<g ref="char:EOLhyphen"/>nations.</p>
+               <p>The husband preſents to her the Spindle and the Rocke; and for that, ſhee reſtoreth to him the Spin<g ref="char:EOLhyphen"/>dle vntwiſting or winding backward: to repreſent her owne ingratitude, that in recompence maketh him as an vntwiſting Spindle.</p>
+               <p>The Husband ſettes the Rocke to his Wiues ſides, becauſe ſhee will ſet a Hel<g ref="char:EOLhyphen"/>met on his head, and ſome<g ref="char:EOLhyphen"/>times giue him one cuffe to begin withall, and ſo hee may correct her faults,
+<pb n="96" facs="tcp:17480:56"/>which hee may doe iuſtly without fault.</p>
+               <p>Sometimes at marriages Walnuts are ſcattered vp and downe; which ſhew<g ref="char:EOLhyphen"/>eth, that a woman is like vnto a Walnut, that hath a great ſhell, but a little ker<g ref="char:EOLhyphen"/>nell, faire without, but rot<g ref="char:EOLhyphen"/>ten within: to pull off the firſt barke, we vſe to bruiſe them in our hands, and to breake the ſecond, wee in<g ref="char:EOLhyphen"/>danger our teeth.</p>
+               <p>What fruit maketh more noyſe then a Walnut when it is broken?</p>
+               <p>And what creature hath more pratling thðilde; a woma<g ref="char:cmbAbbrStroke">̄</g>?</p>
+               <pb n="97" facs="tcp:17480:56"/>
+               <p>Vnder the barke of a Walnut is a faire iuyce, that hee that keepeth it in his hands, is defiled therewith: ſo a woman with her beau<g ref="char:EOLhyphen"/>ty hurteth whomſoeuer be<g ref="char:EOLhyphen"/>holdeth her.</p>
+               <p>He that is vnmarried, is called <hi>Callibas,</hi> as it were <hi>Coeleſtis,</hi> and remaineth free from bands.</p>
+               <p>But marriage is called <hi>Ligam,</hi> becauſe it bindeth a knot, becauſe it knitteth a ſtring, and becauſe it tyeth: and a yoke, becauſe it bur<g ref="char:EOLhyphen"/>deneth: yet is it farre better to carry a yoke, then to marry a wife, for that a yoke
+<pb n="98" facs="tcp:17480:57"/>is borne in the day, but laid downe at night; but a woman muſt bee endured euen to the death.</p>
+               <p>In the Italian tongue, marriage is called <hi>Marita<g ref="char:EOLhyphen"/>rice,</hi> as <hi>Tarſe il marie,</hi> to commit to the Sea: and <hi>Spouſuer,</hi> in which language the letter S vndoeth the ſignification of the very poſure, with which it is compounded, into a con<g ref="char:EOLhyphen"/>trary meaning, as the one ſignifies to depoſe; being compounded with S, is to be without repoſe: ſo hee that will marry, muſt bee ſure to forſake all pleaſure
+<pb n="99" facs="tcp:17480:57"/>and delight.</p>
+               <p>And very well is marri<g ref="char:EOLhyphen"/>age in the ſame language called <hi>Rote, as Dotanſa,</hi> doubting, that thoſe that are inticed to marry, do al<g ref="char:EOLhyphen"/>wayes liue in feare, doubt<g ref="char:EOLhyphen"/>ing a womans Dowry is giuen in Cuffes, in Gar<g ref="char:EOLhyphen"/>ments, in Chaines, and ſuch like.</p>
+               <p>But if it bee called for gaine, it muſt bee reſtored in Vineyards, in Lands, &amp; in Houſes, it is receiued ſlow<g ref="char:EOLhyphen"/>ly, but reſtored quickly.</p>
+               <p>A wife with her children quickly conſumeth the ap<g ref="char:EOLhyphen"/>parell ſhe brought, and the
+<pb n="100" facs="tcp:17480:58"/>goods ſhee found in the houſe: and if it chance ſhe dye, her Dowry muſt bee reſtored, which is ſure ne<g ref="char:EOLhyphen"/>uer to be loſt.</p>
+               <p>But let the Patrimony of her husband be conſumed, there is none to reſtore that againe.</p>
+               <p>Yet a man ſhould thinke it better with reaſon, that children ſhould rather co<g ref="char:cmbAbbrStroke">̄</g>
+                  <g ref="char:EOLhyphen"/>ſume the goods of the mo<g ref="char:EOLhyphen"/>ther, then thoſe of the fa<g ref="char:EOLhyphen"/>ther, for that they are al<g ref="char:EOLhyphen"/>wayes more ſurely her chil<g ref="char:EOLhyphen"/>dren then his.</p>
+               <p>He therefore that will be married to a wife, let him
+<pb n="101" facs="tcp:17480:58"/>firſt think with himſelfe for what cauſe hee marrieth her.</p>
+               <p>If thou marrieſt her to gouerne thy houſe, why, thereby thy ſeruants which thou maiſt leaue behinde thee or take, thou maiſt change them at thy diſpo<g ref="char:EOLhyphen"/>ſition, reprehend them af<g ref="char:EOLhyphen"/>ter thine owne will, looke vnto them at thine owne pleaſure, and without con<g ref="char:EOLhyphen"/>trolement, giue or take from them thy keyes.</p>
+               <p>If thou marrieſt her for deſire of children, thou maiſt adopt ſonnes to thy ſelfe, and diſcharge them
+<pb n="102" facs="tcp:17480:59"/>after thine owne pleaſure and heart.</p>
+               <p>But if thou coueteſt to haue them legitimate, and thine owne, neither can this deſire of thine bee fulfilled by hauing a wife, and it is better for thee, that more reprehend the folly of thy ſeruants then of thy wife:</p>
+               <p>If thou deſireſt to haue children of thine owne, I wil tell thee what thou ſhalt doe: Cauſe the mother that beares them, to beſtowe them as a gift vpon thee, wherupon thou maiſt then, without lying, ſay they are thine owne.</p>
+               <pb n="103" facs="tcp:17480:59"/>
+               <p>If thou marrieſt, thinking with thy wiues Dowry to pay thy debts, thou hadſt then better take vp money at intereſt, though thou ſhouldſt pay a hundred for a hundred.</p>
+               <p>If yet thou thinkeſt with theſe Dowries to match thy daughters, it is better for thee to keepe them thy ſelfe, then to commit them to other ſolkes cuſtody.</p>
+               <p>And to be briefe, If thou wouldſt marry for loue, re<g ref="char:EOLhyphen"/>member that thy wife hath eyes blinded, that her yeres are childiſh, and vndiſcreet, her hands ſtinging, her fa<g ref="char:EOLhyphen"/>ther
+<pb n="104" facs="tcp:17480:60"/>(perhaps) an old limp<g ref="char:EOLhyphen"/>ing man, and her mother a wanton and laſciuious wo<g ref="char:EOLhyphen"/>ma<g ref="char:cmbAbbrStroke">̄</g>, her ſhoulders are win<g ref="char:EOLhyphen"/>ged, her hands polluted, &amp; her body vncleane.</p>
+            </div>
+            <div n="8" type="chapter">
+               <head>CHAP. VIII.</head>
+               <head type="sub">Wherein is ſhewed diuers examples of witty men, that haue reprehen<g ref="char:EOLhyphen"/>ded Marriage.</head>
+               <p>NOw that I haue bound vp all in ſo ſmall a Fag<g ref="char:EOLhyphen"/>got, theſe my ſpeeches would ſeeme too long, if I ſhould by example ende<g ref="char:EOLhyphen"/>uour to prooue all that I haue before ſpoken; I will therefore for breuity ſake
+<pb n="105" facs="tcp:17480:60"/>content my ſelfe with a fewe.</p>
+               <p>A certaine young man liued, reprehended for ta<g ref="char:EOLhyphen"/>king a wife of a very ſmall ſtature, excuſed himſelfe, by ſaying, Of many euils he had made choyſe of one of the leaſt.</p>
+               <p>A certaine man being counſelled to marry, by a Philoſopher, who himſelfe had neuer beene married, deſired him to beſtowe of him one of his daughters.</p>
+               <p>Some haue beene of opi<g ref="char:EOLhyphen"/>nion, that the gods would deſcend and dwell with vs, if it were not that women
+<pb n="106" facs="tcp:17480:61"/>liued amongſt vs.</p>
+               <p>There is no man but re<g ref="char:EOLhyphen"/>membred that <hi>Phoromis,</hi> the King and Law-maker of the Argiues, vſed to ſay, that if hee had not a wife, hee ſhould haue all felicity.</p>
+               <p>
+                  <hi>Socrates,</hi> one of the chie<g ref="char:EOLhyphen"/>feſt Philoſophers, had no<g ref="char:EOLhyphen"/>thing that ſo much an<g ref="char:EOLhyphen"/>noyed him, as his wife <hi>Xan<g ref="char:EOLhyphen"/>tippa.</hi>
+               </p>
+               <p>A certaine Philoſopher, who whiles hee was yong, was often demaunded why hee married not? alwayes anſwered, that it was too ſoone: of whom the ſame being asked when hee was
+<pb n="107" facs="tcp:17480:61"/>old, then replied, that it was too late.</p>
+               <p>A wiſe man that was poore, being requeſted of an exceeding rich woman to marry her, hee refuſed, ſaying, that ſhe being rich, would thinke to be a hus<g ref="char:EOLhyphen"/>band and miſtris of him that was poore.</p>
+               <p>One being reprehended for giuing his daughter in marriage to his enemy, ſaid, that he knew not how to be better reuenged of him.</p>
+               <p>There is nothing in the world more proud then a woman.</p>
+               <pb n="108" facs="tcp:17480:62"/>
+               <p>
+                  <hi>Socrates,</hi> of who<g ref="char:cmbAbbrStroke">̄</g> we ſpake before, was requeſted of one, that he wold giue him leaue to marry: He ſaid, that whether he married or not, he would after repent him. Onely this difference there was, If, ſaith he, thou repen<g ref="char:EOLhyphen"/>teſt of not taking a wife, thou mayſt mend thy ſelfe, when thou wilt: but if thou repenteſt when thou haſt taken her, thou canſt not any way finde redreſſe.</p>
+               <p>
+                  <hi>Arri<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s,</hi> being himſelfe a married man, and ſeeing one lamenting and ma<g ref="char:EOLhyphen"/>king great moane, that three of his wiues, one af<g ref="char:EOLhyphen"/>ter
+<pb n="109" facs="tcp:17480:62"/>another, had all hanged themſelues in one tree in his Garden; he with great deſire requeſted a branch thereof, maruailing that the man ſhould ſorrow for ſo good ſucceſſe, bade him proyne and dreſſe that tree well, which brought him forth ſo good fruite, as to rid him of that which ſo much annoyed him.</p>
+               <p>I remember, that before I compared the wife to an Owle, that is the gazing ſtocke and wonder of all that paſſe by her.</p>
+               <p>I will now compare her husband to a Cuckow, who
+<pb n="110" facs="tcp:17480:63"/>is wont to couer and hide the egges of other birds, for that ſome woman will rather be content with one eye and one hand, then with one man.</p>
+               <p>Marchants being at Sea, and ſeeing their Shippe in danger to miſcarry, reſol<g ref="char:EOLhyphen"/>ued to caſt forth ſome of their heauieſt wares. Wher<g ref="char:EOLhyphen"/>vpon one caſt forth his wife, ſaying, It was hard for the Ship to ſuſtaine ſuch a weight.</p>
+               <p>A wiſe man repented him of three things; of a day loſt, a voyage made by ſea, when hee might haue
+<pb n="111" facs="tcp:17480:63"/>gone by land, and a ſecrete reuealed to his wife.</p>
+            </div>
+            <div type="conclusion">
+               <head>The concluſion of the Letter.</head>
+               <p>I Should haue a long web to weaue, if I ſhould pro<g ref="char:EOLhyphen"/>duce examples out of all thoſe ſayings, which con<g ref="char:EOLhyphen"/>firme theſe my ſpeeches: If I ſhould onely repeate the examples of children, that moſt cruelly haue tor<g ref="char:EOLhyphen"/>tured and murdered their parents; I will therefore conclude, telling thee one<g ref="char:EOLhyphen"/>ly one thing.</p>
+               <p>That the firſt night that
+<pb n="112" facs="tcp:17480:64"/>thy wife ſhall enter into thy marriage bed, ſhe will beginne to hope for thy death, which thou ſhalt bet<g ref="char:EOLhyphen"/>ter beleeue, if thou doeſt but obſerue one ſuſpitious cuſtome that women haue, That the firſt night ſhe lies with thee, will withall di<g ref="char:EOLhyphen"/>ligence obſerue, whether they or their husbands fall firſt aſleepe, prognoſtica<g ref="char:EOLhyphen"/>ting thereby, that their death is neereſt.</p>
+               <p>If I ſhould repeate vnto thee all the ſecrets and va<g ref="char:EOLhyphen"/>nities of women, what ſtrange things ſhouldſt thou then heare of me? But
+<pb n="113" facs="tcp:17480:64"/>I refuſe to relate them, be<g ref="char:EOLhyphen"/>cauſe indeed it is a ſhame to know them.</p>
+               <p>Some (I know) will con<g ref="char:EOLhyphen"/>demne me, for that I haue ſpoken, which will be ſuch as then are newly married, or doe intend to marry.</p>
+               <p>But let them goe on, and in the end they ſhall blame themſelues, for beleeuing me no better.</p>
+               <p>The firſt moneth that a man is married, I know, he will thinke me a foole.</p>
+               <p>The ſecond moneth he will call my name in que<g ref="char:EOLhyphen"/>ſtion.</p>
+               <p>The third moneth, hee
+<pb n="114" facs="tcp:17480:65"/>will contend with me.</p>
+               <p>The fourth moneth hee wil withdraw the ſentence.</p>
+               <p>The fift moneth he will pay the charges, accoun<g ref="char:EOLhyphen"/>ting me a wiſe man, and himſelfe a foole.</p>
+               <p>But thou wilt ſay, I am no competent Iudge, ha<g ref="char:EOLhyphen"/>uing neuer had experience, what a woman is.</p>
+               <p>I anſwere thee, that when two men wraſtle together, he that looketh on, behol<g ref="char:EOLhyphen"/>deth the game better then themſelues.</p>
+               <p>But let mee ſay what I will, I know, thy reſolution is wholly bent vpon mar<g ref="char:EOLhyphen"/>riage,
+<pb n="115" facs="tcp:17480:65"/>and to a man delibe<g ref="char:EOLhyphen"/>rate we ſeldome vſe to giue counſell.</p>
+               <p>Yet let mee aduiſe thee, that with thine eyes ſhut, thy noſe ſtopt, thy fiſt clo<g ref="char:EOLhyphen"/>ſed, &amp; thy ſtomack armed, thou wilt take thy wife as a medicine of Rubarbe. And ſo I deſire the gods to giue thee grace to beleeue this my letter, and to keep thee from euil: which thou ſhalt beſt do, if thou keepe thee from a wife.</p>
+               <trailer>FINIS.</trailer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
